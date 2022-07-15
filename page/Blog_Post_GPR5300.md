@@ -1,4 +1,4 @@
-![](https://github.com/PaulOwO/Portfolio/blob/gif/opengl.gif)
+![](https://github.com/PaulOwO/Portfolio/blob/11292ba72cb82405a4485d35dd92b5c5abd537b9/gif/opengl.gif)
 
 ## Welcome to GitHub Pages
 
