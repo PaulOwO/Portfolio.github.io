@@ -1,3 +1,5 @@
+[gif](https://github.com/PaulOwO/Portfolio/blob/11292ba72cb82405a4485d35dd92b5c5abd537b9/gif/opengl.gif)
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/PaulOwO/Portfolio/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
