@@ -110,7 +110,7 @@ Instancing is an optimization that allow us to use one draw call for the same ob
 
 ![image](https://user-images.githubusercontent.com/71375990/179773353-c38ca374-4762-45d8-8b08-7f4dbe8b0d89.png)
 
-![image](https://user-images.githubusercontent.com/71375990/179773570-8f002a60-b217-49ee-a87d-d9f5457c13a5.png)
+
 
 
 
@@ -140,13 +140,22 @@ View fustrum culling is an optimistaion that allow objects that are not in the c
 
 ### Shadow Cube Mapping
 
+![image](https://user-images.githubusercontent.com/71375990/179773570-8f002a60-b217-49ee-a87d-d9f5457c13a5.png)
+
+![image](https://user-images.githubusercontent.com/71375990/179773754-915ccec7-9d31-4361-9ace-73e11f9d937f.png)
+
 ## What's next
 
 To go deeper into graphycs programming there are multiple things that could be done, the first one being finishing the scene with some more effect and adding PBR that is the lighting thecnique mostly used in the industrie. Then the next step would be to do again the scene but in DirectX 11 to learn many things.
 
 As previously said in "Shadow Mapping", my shadow only work for directionnal lighting. But we could had it by simply using a cube map of shadow map instead of just one ! 
 
-![image](https://user-images.githubusercontent.com/71375990/179773754-915ccec7-9d31-4361-9ace-73e11f9d937f.png)
+## Conclusion 
+
+That's it for the overview of my scene, we saw all the thecniques i used and what they do in the scene.
+I appreciated this course and can't wait to learn about more tecknique used in the industrie. 
+
+
 
 
 
