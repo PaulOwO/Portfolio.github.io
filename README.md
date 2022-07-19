@@ -20,7 +20,7 @@ So let's get started!
 
 ## Triangle
 
-![image](https://user-images.githubusercontent.com/71375990/179814312-94602fe2-c1cf-46bd-be9d-a86b511786fa.png)
+![image](https://user-images.githubusercontent.com/71375990/179834437-2a24b254-5f40-4dd4-8f94-b45891c4b820.png)
 
 We started with a triangle, the simplest shape that we use to create every object in the scene.
 We created our first shader, Vertex Buffer Objects, Array Buffer Objects and uniform and with that we had some kind of basis.
