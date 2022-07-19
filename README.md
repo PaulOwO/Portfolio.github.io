@@ -79,14 +79,13 @@ A specular map tells if the object should or should not have a specular.
 
 ![image](https://user-images.githubusercontent.com/71375990/179769376-0a20b970-ce75-4f99-a1b4-1fa72236a0d5.png)
 
-We load the data of our model (vertex, texture coordinate, ect...) from all sorts of formats like ".obj". Thanks to assimp we can access the data easily and draw each mesh that constitute our model.
+We load the data of our model (vertex, texture coordinate, etc...) from all sorts of formats like ".obj". Thanks to assimp we can access the data easily and draw each mesh that constitute our model.
 
 ## Frame Buffer 
 
 ![image](https://user-images.githubusercontent.com/71375990/179769553-ccf5a45b-4021-4e83-9a1d-ee6cf223a8a0.png)
 
-Frame Buffers allow us to draw things on a different buffer than the one we show at the end. We use this buffer to store what we draw as a new texture we can use later. In this case we drew our entire scene in framebuffer, turned it into a texture then applied some effect on it.
-
+Frame Buffers allow us to draw things on a different buffer than the one we show at the end. We use this buffer to store what we draw as a new texture we can use later. In this case we drew our entire scene in a framebuffer, turned it into a texture then applied some effect on it.
 
 ## Stencil
 
@@ -99,7 +98,7 @@ In our scene we draw again our model a bit larger and discard what's in front of
 
 ![image](https://user-images.githubusercontent.com/71375990/179770334-0d911b0e-7840-43f9-a475-c540f59a7855.png)
 
-Cube mapping allows us to create a cube of texture with 6 textures.
+Cube mapping allows us to create a cube of texture with six textures.
 
 ![image](https://user-images.githubusercontent.com/71375990/179773535-61be525d-2e7a-4545-85df-16821d4ff444.png)
 
@@ -143,7 +142,7 @@ Shadow map
 
 From what we saw before, let's see what elements we put in our scene :
 
-- Lighting : directional light, point light(white square), flashlight.
+- Lighting : directional light, point light (white square), flashlight.
 - Ground : square, instanced and using normal mapping.
 - Backpack : model, instanced and using normal mapping.
 - Shadow mapping : from directional lighting.
@@ -170,10 +169,10 @@ As previously said in "Shadow Mapping '', my shadow only works for directional l
 
 ## What's next
 
-To go deeper into graphics programming there are multiple things that could be done, the first one being finishing the scene with some more effect and adding PBR that is the lighting technique mostly used in the industrie. Then the next step would be to do the scene again but in DirectX 11 to learn many things!
+To go deeper into graphics programming there are multiple things that could be done, the first one being finishing the scene with some more effect and adding PBR that is the lighting technique mostly used in the industry. Then the next step would be to do the scene again but in DirectX 11 to learn many things!
 
 ## Conclusion 
 
 That's it for the overview of my scene, we saw all the techniques i used and what they do in the scene.
-I appreciated this course and can't wait to learn about more techniques used in the industrie. 
+I appreciated this course and can't wait to learn about more techniques used in the industry. 
 
