@@ -71,27 +71,36 @@ The image above is a lighing map/ specular map. It tells if the object should or
 
 ![image](https://user-images.githubusercontent.com/71375990/179769376-0a20b970-ce75-4f99-a1b4-1fa72236a0d5.png)
 
+We load the data of our model (vertex, texure coordonate, ect...) from all sort of format like ".obj". Thanks to assimp we can access the data easyly and draw ieach mesh that constitute our model
 
 ## Frame Buffer 
 
 ![image](https://user-images.githubusercontent.com/71375990/179769553-ccf5a45b-4021-4e83-9a1d-ee6cf223a8a0.png)
+
+Frame Buffers allow us to draw things on a different buffer that the one we show at the end. We use this buffer to store what we draw as a new texture we can use later. In this case we drew our entire scene in framebuffer, turn it into a texture than apply some effet on it. 
 
 
 ## Stencil
 
 ![image](https://user-images.githubusercontent.com/71375990/179769841-d4e823a4-d38a-47ef-9be8-522a64f61c55.png)
 
+
+
 ## Cube Mapping
 
 ![image](https://user-images.githubusercontent.com/71375990/179770334-0d911b0e-7840-43f9-a475-c540f59a7855.png)
 
+Cube mapping allow us to create a cube of texture with 6 textures.
+
 ![image](https://user-images.githubusercontent.com/71375990/179773535-61be525d-2e7a-4545-85df-16821d4ff444.png)
 
+In our case we use it to make a skybox.
 
 ## Instancing
 
 ![image](https://user-images.githubusercontent.com/71375990/179776948-b769951f-5abd-42ce-88fe-2d4bd4e9cbda.png)
 
+Instancing is an optimization that allow us to use one draw call for the same object .
 
 ## Normal Mapping
 
