@@ -114,18 +114,15 @@ We use normal mapping to create the ilusion of depth thanks to lighting.
 
 A normal map is used to redifine the normals of our object that we use in our light calculation. We can create more details without adding any triangles.  
 
-
-
-
-
-
 ## Shadow Mapping
 
 ![image](https://user-images.githubusercontent.com/71375990/179770514-ea955139-1a51-4ce1-baef-87f5ee616ede.png)
 
-![image](https://user-images.githubusercontent.com/71375990/179773754-915ccec7-9d31-4361-9ace-73e11f9d937f.png)
+Shadow mapping is used to create shadow !
 
-only work for directionnal light
+To do so we bind a frambuffer than draw our scene from the point of view our light in depth only. Than we draw in another buffer the scene normaly whith our shadow map that we just got.
+
+![image](https://user-images.githubusercontent.com/71375990/179773754-915ccec7-9d31-4361-9ace-73e11f9d937f.png) Shadow map
 
 ## Final Scene
 
