@@ -63,9 +63,9 @@ A spotlight that act like a point light but only in one direction. (in our scene
 
 Each object also have a material that tell how the object should react to light.
 
-![image](https://user-images.githubusercontent.com/71375990/179787503-3603d213-a661-4b66-a0ec-2fedec43e3a3.png)
+![image](https://user-images.githubusercontent.com/71375990/179787503-3603d213-a661-4b66-a0ec-2fedec43e3a3.png) Lighing map/specular map
 
-The image above is a lighing map/ specular map. It tells if the object should or should not have a specular.
+A specular map tells if the object should or should not have a specular.
 
 ## Model
 
@@ -106,9 +106,13 @@ Instancing is an optimization that allow us to use one draw call for the same ob
 
 ![image](https://user-images.githubusercontent.com/71375990/179770099-59ef1fc3-2ee6-49d2-9148-bd05f2edcd13.png)
 
+We use normal mapping to create the ilusion of depth thanks to lighting.
+
 ![image](https://user-images.githubusercontent.com/71375990/179773268-06a2c26d-6cd1-4c47-872d-9e693d938da0.png)
 
-![image](https://user-images.githubusercontent.com/71375990/179773353-c38ca374-4762-45d8-8b08-7f4dbe8b0d89.png)
+![image](https://user-images.githubusercontent.com/71375990/179773353-c38ca374-4762-45d8-8b08-7f4dbe8b0d89.png) Normal maps
+
+A normal map is used to redifine the normals of our object that we use in our light calculation. We can create more details without adding any triangles.  
 
 
 
