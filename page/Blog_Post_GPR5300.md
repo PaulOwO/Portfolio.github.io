@@ -14,14 +14,38 @@ We are also going to stop to realy see how I did my normal mapping.
 - We used [SDL](https://www.libsdl.org) to create our application window and take input.
 - In addition to our course, we used the site [Learn OpenGL](https://learnopengl.com) to help us throught programming.
 
-![image](https://user-images.githubusercontent.com/71375990/179745115-248daba2-09db-4006-a679-e35d046dd60c.png)
-
-## light 
-lighing map 
-
-
 Each week we saw different graphic programming thecnique and had to implement thus we needed/wanted in our final scene,
 so let's get started!
+
+## Triangle
+
+## Square
+
+## Texture
+
+![image](https://user-images.githubusercontent.com/71375990/179745115-248daba2-09db-4006-a679-e35d046dd60c.png)
+
+## Lighting 
+lighing map 
+spotlight
+pointlight dir light
+
+## Model
+
+## Frame Buffer 
+
+## Stencil
+
+## Normal Mapping
+
+## Shadow Mapping
+
+
+
+
+
+
+
 
 You can use the [editor on GitHub](https://github.com/PaulOwO/Portfolio/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
