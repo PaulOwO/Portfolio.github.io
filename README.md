@@ -133,14 +133,15 @@ In our case the light being a directional light doesn't have a positon so we mad
 
 ![image](https://user-images.githubusercontent.com/71375990/179767972-c7dbc421-7940-4034-84d6-7f6214cd5a84.png)
 
-From what we saw before, let's see what element we put in our scene :
+From what we saw before, let's see what elements we put in our scene :
 
-Lighting :
-
-
-
-
-
+- Lighting : directional light, point light(white square), flashlight.
+- Ground : square, instanced and using normal map.
+- Backpack : model, instanced and using normal map.
+- Shadow mapping : from directionnal lighting.
+- Cube mapping : skybox.
+- Frame Buffer : alter between normal and blurry every 5 seconds.
+- Back Face Culling (see in "view frustrum culling"). 
 
 ## What more could have been done
 
@@ -166,11 +167,4 @@ To go deeper into graphycs programming there are multiple things that could be d
 
 That's it for the overview of my scene, we saw all the thecniques i used and what they do in the scene.
 I appreciated this course and can't wait to learn about more tecknique used in the industrie. 
-
-
-
-
-
-
-
 
