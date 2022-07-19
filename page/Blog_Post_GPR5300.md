@@ -4,6 +4,14 @@
 
 ![](https://github.com/PaulOwO/Portfolio/blob/11292ba72cb82405a4485d35dd92b5c5abd537b9/gif/opengl.gif) The blur is done willingly !
 
+We are going to see overall how the scene evolve throuout 2 months and thanks to wich techniques.
+We are also going to stop to realy see how I did my normal mapping.
+
+## The setup
+
+
+
+
 You can use the [editor on GitHub](https://github.com/PaulOwO/Portfolio/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
