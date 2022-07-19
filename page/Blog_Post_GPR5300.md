@@ -16,6 +16,9 @@ We are also going to stop to realy see how I did my normal mapping.
 
 ![image](https://user-images.githubusercontent.com/71375990/179745115-248daba2-09db-4006-a679-e35d046dd60c.png)
 
+## light 
+lighing map 
+
 
 Each week we saw different graphic programming thecnique and had to implement thus we needed/wanted in our final scene,
 so let's get started!
