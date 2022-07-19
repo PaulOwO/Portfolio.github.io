@@ -38,12 +38,27 @@ To make a square we learnd about indices and Elements Buffer Objects that allow 
 
 To aply texture, we first need to load and bind it using multiple openGl command, than give the texure coordonates to our shader.
 
+## Cube 
+
+![image](https://user-images.githubusercontent.com/71375990/179782553-dd2f8e6b-6a78-439e-812e-16fabe0c14d4.png)
+
+Than we did 3d for the first time by adding some vertexs and indices plus creating a model, view and projection matrix to locate it in our space. 
+
 ## Lighting 
 ![image](https://user-images.githubusercontent.com/71375990/179768731-092ceabe-0103-487c-b858-e8a18b145df6.png)
+
+Lighting is done with the help of the light position/direction and by setting uniforms for the power of 3 differents light coponent.
+The ambiant light is the color of the object when it isn't dirrectly lit.
+The diffuse light is the color of the object when it is dirrectly lit.
+The specular is when the normal of the object goes directly in our eye (the camera), it gives this realy bright point.
+
+
+
 
 
 ![image](https://user-images.githubusercontent.com/71375990/179768971-ac7b7109-312c-45f0-9f37-9f0bb56d34c1.png)
 
+material
 lighing map 
 spotlight
 pointlight dir light
