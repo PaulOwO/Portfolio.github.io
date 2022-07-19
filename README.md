@@ -71,4 +71,22 @@ pointlight dir light
 
 
 
+only work for directionnal light
+
+## What more could have been done
+
+### View frustrum culling
+![image](https://user-images.githubusercontent.com/71375990/179771229-966a2c75-50d0-440b-b3d1-3879989746c8.png)
+
+In the current scene the only "camera view" optimisation is the backface culling that that does not draw the back of the object.
+View fustrum culling is an optimistaion that allow objects that are not in the camera to be not drawn and it's one i would have liked to had in my scene.
+
+### Shadow Cube Mapping
+
+As previously said in "Shadow Mapping", my shadow only work for directionnal lighting. But we could had it by simply using a cube map of shadow map instead of just one ! 
+
+
+
+
+
 
