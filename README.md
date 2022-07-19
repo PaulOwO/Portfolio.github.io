@@ -21,6 +21,8 @@ so let's get started!
 
 ## Square
 
+![gif](https://github.com/PaulOwO/Portfolio.github.io/blob/02a3d8f235728be558430498f548190e9ad871d4/gif/ezgif.com-gif-maker%20(2).gif)
+
 ## Texture
 
 ![image](https://user-images.githubusercontent.com/71375990/179745115-248daba2-09db-4006-a679-e35d046dd60c.png)
