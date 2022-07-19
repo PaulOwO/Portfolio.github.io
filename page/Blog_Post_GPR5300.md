@@ -9,8 +9,13 @@ We are also going to stop to realy see how I did my normal mapping.
 
 ## The setup
 
+- First of all this project was done for the module GPR3500 at the SAE institute of Geneva.
+- The project was done on [OpenGL](https://www.opengl.org) which allow us to do graphics programming on a lot of platforms.
+- We used [SDL](https://www.libsdl.org) to create our application window and take input.
+- In addition to our course, we used the site [Learn OpenGL](https://learnopengl.com) to help us throught programming.
 
-
+Each week we saw different graphic programming thecnique and had to implement thus we needed/wanted in our final scene,
+so let's get started!
 
 You can use the [editor on GitHub](https://github.com/PaulOwO/Portfolio/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
