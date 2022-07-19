@@ -3,7 +3,7 @@
 ## You can find the code [here](https://github.com/PaulOwO/GPR5300).
 
 ## Preview
-![](https://github.com/PaulOwO/Portfolio.github.io/blob/39770161c20a4e999548c14b091dd06c9c981836/gif/opengl.gif)
+[GIF](https://github.com/PaulOwO/Portfolio.github.io/blob/39770161c20a4e999548c14b091dd06c9c981836/gif/opengl.gif)
 ![image](https://user-images.githubusercontent.com/71375990/179767972-c7dbc421-7940-4034-84d6-7f6214cd5a84.png)
 
 We are going to see overall how the scene evolved throughout 2 months and thanks to which techniques.
@@ -19,8 +19,6 @@ Each week we saw different graphic programming techniques and had to implement t
 So let's get started!
 
 ## Triangle
-
-![image](https://user-images.githubusercontent.com/71375990/179768284-5b9686e6-d962-4ae1-9ea8-929e58fea4b0.png)
 
 We started with a triangle, the simplest shape that we use to create every object in the scene.
 We created our first shader, Vertex Buffer Objects, Array Buffer Objects and uniform and with that we had some kind of basis.
@@ -49,23 +47,31 @@ Then we did 3d for the first time by adding some vertices and indices plus creat
 ## Lighting 
 ![image](https://user-images.githubusercontent.com/71375990/179768731-092ceabe-0103-487c-b858-e8a18b145df6.png)
 
-Lighting is done with the help of the light position/direction and by setting uniforms for the power of 3 different light componentst.
+Lighting is done with the help of the light position/direction and by setting uniforms for the power of three different light components.
+
 The ambient light is the color of the object when it isn't directly lit.
+
 The diffuse light is the color of the object when it is directly lit.
+
 The specular is when the normal of the object goes directly in our eye (the camera), it gives this really bright point.
 
 ![image](https://user-images.githubusercontent.com/71375990/179768971-ac7b7109-312c-45f0-9f37-9f0bb56d34c1.png)
 
 For our lighting to work we also need it to work with multiple and different sources of light.
-We calculate how each light has an impact on the object (by changing its abiant, diffuse, specular) and add it together.
-In our scene there are currently 3 lights.
-A directional light creates light in a direction everywhere. (like the sun)
-A point light sends light all around it. (like a lamp)
-A spotlight that acts like a point light but only in one direction. (in our scene it's the camera direction so it's like a flashlight.
+We calculate how each light has an impact on the object (by changing it's anbient, diffuse, specular) and add it together.
+
+In our scene there are currently three lights.
+
+A directional light creates parallel light in a direction (like the sun). 
+
+A point light sends light all around it (like a lamp). 
+
+A spotlight that acts like a point light but only in one direction (in our scene it's the camera direction so it's like a flashlight). 
 
 Each object also have a material that tells how the object should react to light.
 
-![image](https://user-images.githubusercontent.com/71375990/179787503-3603d213-a661-4b66-a0ec-2fedec43e3a3.png) Lighting map/specular map
+![image](https://user-images.githubusercontent.com/71375990/179787503-3603d213-a661-4b66-a0ec-2fedec43e3a3.png) 
+Lighting map/specular map
 
 A specular map tells if the object should or should not have a specular.
 
@@ -113,7 +119,8 @@ We use normal mapping to create the illusion of depth thanks to lighting.
 
 ![image](https://user-images.githubusercontent.com/71375990/179773268-06a2c26d-6cd1-4c47-872d-9e693d938da0.png)
 
-![image](https://user-images.githubusercontent.com/71375990/179773353-c38ca374-4762-45d8-8b08-7f4dbe8b0d89.png) Normal maps
+![image](https://user-images.githubusercontent.com/71375990/179773353-c38ca374-4762-45d8-8b08-7f4dbe8b0d89.png) 
+Normal maps
 
 A normal map is used to redefine the normals of our object that we use in our light calculation. We can create more details without adding any triangles.  
 
@@ -127,7 +134,8 @@ To do so we bind a framebuffer then draw our scene from the point of view of our
 
 In our case the light being a directional light doesn't have a position so we made an approximation to have it cover our scene.
 
-![image](https://user-images.githubusercontent.com/71375990/179773754-915ccec7-9d31-4361-9ace-73e11f9d937f.png) Shadow map
+![image](https://user-images.githubusercontent.com/71375990/179773754-915ccec7-9d31-4361-9ace-73e11f9d937f.png) 
+Shadow map
 
 ## Final Scene
 
