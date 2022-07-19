@@ -21,11 +21,16 @@ so let's get started!
 
 ![image](https://user-images.githubusercontent.com/71375990/179768284-5b9686e6-d962-4ae1-9ea8-929e58fea4b0.png)
 
+We started with a triangle, the simplest shape that we use to create every object in the scene.
+We created our first shader, Vertex Buffer Objects, Array Buffer Objects and uniform and with that we had some kind of basis.
+
 
 ## Square
 
 ![gif](https://github.com/PaulOwO/Portfolio.github.io/blob/02a3d8f235728be558430498f548190e9ad871d4/gif/ezgif.com-gif-maker%20(2).gif)
 ![image](https://user-images.githubusercontent.com/71375990/179768462-facfb500-d9c9-48a9-bc36-859986572c28.png)
+
+To make a square we learnd about indices and Elements Buffer Objects that allow us not to draw again the part of our trinagle that would overlap.
 
 
 ## Texture
@@ -59,6 +64,11 @@ pointlight dir light
 ![image](https://user-images.githubusercontent.com/71375990/179770334-0d911b0e-7840-43f9-a475-c540f59a7855.png)
 
 ![image](https://user-images.githubusercontent.com/71375990/179773535-61be525d-2e7a-4545-85df-16821d4ff444.png)
+
+
+## Instancing
+
+![image](https://user-images.githubusercontent.com/71375990/179776948-b769951f-5abd-42ce-88fe-2d4bd4e9cbda.png)
 
 
 ## Normal Mapping
@@ -95,6 +105,10 @@ In the current scene the only "camera view" optimisation is the backface culling
 View fustrum culling is an optimistaion that allow objects that are not in the camera to be not drawn and it's one i would have liked to had in my scene.
 
 ### Shadow Cube Mapping
+
+## What's next
+
+To go deeper into graphycs programming there are multiple things that could be done, the first one being finishing the scene with some more effect and adding PBR that is the lighting thecnique mostly used in the industrie. Then the next step would be to do again the scene but in DirectX 11 to learn many things.
 
 As previously said in "Shadow Mapping", my shadow only work for directionnal lighting. But we could had it by simply using a cube map of shadow map instead of just one ! 
 
