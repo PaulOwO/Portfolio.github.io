@@ -1,5 +1,7 @@
 # My first OpenGL scene
 
+## You can find the code [here](https://github.com/PaulOwO/GPR5300).
+
 ## Preview
 ![](https://github.com/PaulOwO/Portfolio.github.io/blob/39770161c20a4e999548c14b091dd06c9c981836/gif/opengl.gif)
 ![image](https://user-images.githubusercontent.com/71375990/179767972-c7dbc421-7940-4034-84d6-7f6214cd5a84.png)
@@ -84,7 +86,8 @@ Frame Buffers allow us to draw things on a different buffer that the one we show
 
 ![image](https://user-images.githubusercontent.com/71375990/179769841-d4e823a4-d38a-47ef-9be8-522a64f61c55.png)
 
-
+A stencil is a buffer that can be written on and that can discard fragment.
+In our scene we draw again our model a bit larger and discard what's in front of our smaller model. We get an outline.
 
 ## Cube Mapping
 
@@ -118,9 +121,11 @@ A normal map is used to redifine the normals of our object that we use in our li
 
 ![image](https://user-images.githubusercontent.com/71375990/179770514-ea955139-1a51-4ce1-baef-87f5ee616ede.png)
 
-Shadow mapping is used to create shadow !
+Shadow mapping is used to create shadow!
 
 To do so we bind a frambuffer than draw our scene from the point of view our light in depth only. Than we draw in another buffer the scene normaly whith our shadow map that we just got.
+
+In our case the light being a directional light doesn't have a positon so we made an aproximation to have it cover our scene.
 
 ![image](https://user-images.githubusercontent.com/71375990/179773754-915ccec7-9d31-4361-9ace-73e11f9d937f.png) Shadow map
 
@@ -128,7 +133,13 @@ To do so we bind a frambuffer than draw our scene from the point of view our lig
 
 ![image](https://user-images.githubusercontent.com/71375990/179767972-c7dbc421-7940-4034-84d6-7f6214cd5a84.png)
 
-From what we saw before, let's see what we put in our final scene and how.
+From what we saw before, let's see what element we put in our scene :
+
+Lighting :
+
+
+
+
 
 
 ## What more could have been done
@@ -145,11 +156,11 @@ View fustrum culling is an optimistaion that allow objects that are not in the c
 
 ![image](https://user-images.githubusercontent.com/71375990/179773754-915ccec7-9d31-4361-9ace-73e11f9d937f.png)
 
+As previously said in "Shadow Mapping", my shadow only work for directionnal lighting. We could make it work for a point light by creating a cube map of shadow map, it means that we would have to draw how scene from six different points of view.
+
 ## What's next
 
-To go deeper into graphycs programming there are multiple things that could be done, the first one being finishing the scene with some more effect and adding PBR that is the lighting thecnique mostly used in the industrie. Then the next step would be to do again the scene but in DirectX 11 to learn many things.
-
-As previously said in "Shadow Mapping", my shadow only work for directionnal lighting. But we could had it by simply using a cube map of shadow map instead of just one ! 
+To go deeper into graphycs programming there are multiple things that could be done, the first one being finishing the scene with some more effect and adding PBR that is the lighting thecnique mostly used in the industrie. Then the next step would be to do again the scene but in DirectX 11 to learn many things!
 
 ## Conclusion 
 
