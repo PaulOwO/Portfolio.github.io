@@ -1,11 +1,10 @@
 # My first OpenGL scene
 
 ## Preview
-![](https://github.com/PaulOwO/Portfolio.github.io/blob/39770161c20a4e999548c14b091dd06c9c981836/gif/opengl.gif) The blur is done willingly !
+![](https://github.com/PaulOwO/Portfolio.github.io/blob/39770161c20a4e999548c14b091dd06c9c981836/gif/opengl.gif)
 ![image](https://user-images.githubusercontent.com/71375990/179767972-c7dbc421-7940-4034-84d6-7f6214cd5a84.png)
 
 We are going to see overall how the scene evolve throuout 2 months and thanks to wich techniques.
-We are also going to stop to realy see how I did my normal mapping.
 
 ## The setup
 
@@ -37,8 +36,12 @@ To make a square we learnd about indices and Elements Buffer Objects that allow 
 
 ![image](https://user-images.githubusercontent.com/71375990/179745115-248daba2-09db-4006-a679-e35d046dd60c.png)
 
+To aply texture, we first need to load and bind it using multiple openGl command, than give the texure coordonates to our shader.
+
 ## Lighting 
 ![image](https://user-images.githubusercontent.com/71375990/179768731-092ceabe-0103-487c-b858-e8a18b145df6.png)
+
+
 ![image](https://user-images.githubusercontent.com/71375990/179768971-ac7b7109-312c-45f0-9f37-9f0bb56d34c1.png)
 
 lighing map 
@@ -90,11 +93,14 @@ pointlight dir light
 
 ![image](https://user-images.githubusercontent.com/71375990/179773754-915ccec7-9d31-4361-9ace-73e11f9d937f.png)
 
-
-
-
-
 only work for directionnal light
+
+## Final Scene
+
+![image](https://user-images.githubusercontent.com/71375990/179767972-c7dbc421-7940-4034-84d6-7f6214cd5a84.png)
+
+From what we saw before, let's see what we put in our final scene and how.
+
 
 ## What more could have been done
 
