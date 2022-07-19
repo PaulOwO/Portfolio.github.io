@@ -20,13 +20,13 @@ So let's get started!
 
 ## Triangle
 
+![image](https://user-images.githubusercontent.com/71375990/179814312-94602fe2-c1cf-46bd-be9d-a86b511786fa.png)
+
 We started with a triangle, the simplest shape that we use to create every object in the scene.
 We created our first shader, Vertex Buffer Objects, Array Buffer Objects and uniform and with that we had some kind of basis.
 
-
 ## Square
 
-![image](https://github.com/PaulOwO/Portfolio.github.io/blob/02a3d8f235728be558430498f548190e9ad871d4/gif/ezgif.com-gif-maker%20(2).gif)
 ![image](https://user-images.githubusercontent.com/71375990/179768462-facfb500-d9c9-48a9-bc36-859986572c28.png)
 
 To make a square we learned about indices and Elements Buffer Objects that allow us not to draw again the part of our triangle that would overlap.
@@ -45,6 +45,7 @@ To apply texture, we first need to load and bind it using multiple openGl comman
 Then we did 3d for the first time by adding some vertices and indices plus creating a model, view and projection matrix to locate it in our space. 
 
 ## Lighting 
+
 ![image](https://user-images.githubusercontent.com/71375990/179768731-092ceabe-0103-487c-b858-e8a18b145df6.png)
 
 Lighting is done with the help of the light position/direction and by setting uniforms for the power of three different light components.
@@ -71,6 +72,7 @@ A spotlight that acts like a point light but only in one direction (in our scene
 Each object also have a material that tells how the object should react to light.
 
 ![image](https://user-images.githubusercontent.com/71375990/179787503-3603d213-a661-4b66-a0ec-2fedec43e3a3.png) 
+
 Lighting map/specular map
 
 A specular map tells if the object should or should not have a specular.
@@ -119,6 +121,7 @@ We use normal mapping to create the illusion of depth thanks to lighting.
 ![image](https://user-images.githubusercontent.com/71375990/179773268-06a2c26d-6cd1-4c47-872d-9e693d938da0.png)
 
 ![image](https://user-images.githubusercontent.com/71375990/179773353-c38ca374-4762-45d8-8b08-7f4dbe8b0d89.png) 
+
 Normal maps
 
 A normal map is used to redefine the normals of our object that we use in our light calculation. We can create more details without adding any triangles.  
