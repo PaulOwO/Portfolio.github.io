@@ -26,7 +26,7 @@ We created our first shader, Vertex Buffer Objects, Array Buffer Objects and uni
 
 ## Square
 
-![gif](https://github.com/PaulOwO/Portfolio.github.io/blob/02a3d8f235728be558430498f548190e9ad871d4/gif/ezgif.com-gif-maker%20(2).gif)
+![image](https://github.com/PaulOwO/Portfolio.github.io/blob/02a3d8f235728be558430498f548190e9ad871d4/gif/ezgif.com-gif-maker%20(2).gif)
 ![image](https://user-images.githubusercontent.com/71375990/179768462-facfb500-d9c9-48a9-bc36-859986572c28.png)
 
 To make a square we learnd about indices and Elements Buffer Objects that allow us not to draw again the part of our trinagle that would overlap.
@@ -52,16 +52,20 @@ The ambiant light is the color of the object when it isn't dirrectly lit.
 The diffuse light is the color of the object when it is dirrectly lit.
 The specular is when the normal of the object goes directly in our eye (the camera), it gives this realy bright point.
 
-
-
-
-
 ![image](https://user-images.githubusercontent.com/71375990/179768971-ac7b7109-312c-45f0-9f37-9f0bb56d34c1.png)
 
-material
-lighing map 
-spotlight
-pointlight dir light
+For our lighting to work we also need it to work with multiple and different source of light.
+We calculate how each light have impact on the object (by changing it's abiant, diffuse, specular) and had it together.
+In our scene there is currently 3 lights.
+A directional light create light in a direction everywhere. (like the sun)
+A point light send light all around it. (like a lamp)
+A spotlight that act like a point light but only in one direction. (in our scene it's the camera direction so it's like a flaslight.
+
+Each object also have a material that tell how the object should react to light.
+
+![image](https://user-images.githubusercontent.com/71375990/179787503-3603d213-a661-4b66-a0ec-2fedec43e3a3.png)
+
+The image above is a lighing map/ specular map. It tells if the object should or should not have a specular.
 
 ## Model
 
