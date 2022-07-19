@@ -58,16 +58,26 @@ pointlight dir light
 
 ![image](https://user-images.githubusercontent.com/71375990/179770334-0d911b0e-7840-43f9-a475-c540f59a7855.png)
 
+![image](https://user-images.githubusercontent.com/71375990/179773535-61be525d-2e7a-4545-85df-16821d4ff444.png)
 
 
 ## Normal Mapping
 
 ![image](https://user-images.githubusercontent.com/71375990/179770099-59ef1fc3-2ee6-49d2-9148-bd05f2edcd13.png)
 
+![image](https://user-images.githubusercontent.com/71375990/179773268-06a2c26d-6cd1-4c47-872d-9e693d938da0.png)
+
+![image](https://user-images.githubusercontent.com/71375990/179773353-c38ca374-4762-45d8-8b08-7f4dbe8b0d89.png)
+
+
+
 
 ## Shadow Mapping
 
 ![image](https://user-images.githubusercontent.com/71375990/179770514-ea955139-1a51-4ce1-baef-87f5ee616ede.png)
+
+![image](https://user-images.githubusercontent.com/71375990/179773570-8f002a60-b217-49ee-a87d-d9f5457c13a5.png)
+
 
 
 
@@ -84,6 +94,7 @@ View fustrum culling is an optimistaion that allow objects that are not in the c
 ### Shadow Cube Mapping
 
 As previously said in "Shadow Mapping", my shadow only work for directionnal lighting. But we could had it by simply using a cube map of shadow map instead of just one ! 
+![image](https://user-images.githubusercontent.com/71375990/179773754-915ccec7-9d31-4361-9ace-73e11f9d937f.png)
 
 
 
