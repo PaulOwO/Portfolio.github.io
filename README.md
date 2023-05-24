@@ -57,8 +57,8 @@ The specular is when the normal of the object goes directly in our eye (the came
 
 ![image](https://user-images.githubusercontent.com/71375990/179768971-ac7b7109-312c-45f0-9f37-9f0bb56d34c1.png)
 
-For our lighting to work we also need it to work with multiple and different sources of light.
-We calculate how each light has an impact on the object (by changing it's anbient, diffuse, specular) and add it together.
+For our lighting, to work we also need it to work with multiple and different sources of light.
+We calculate how each light has an impact on the object (by changing it's ambient, diffuse, specular) and add it together.
 
 In our scene there are currently three lights.
 
@@ -66,7 +66,7 @@ A directional light creates parallel light in a direction (like the sun).
 
 A point light sends light all around it (like a lamp). 
 
-A spotlight that acts like a point light but only in one direction (in our scene it's the camera direction so it's like a flashlight). 
+A spotlight that acts like a point light but only in one direction (in our scene it's the camera direction, so it's like a flashlight.)
 
 Each object also have a material that tells how the object should react to light.
 
@@ -86,14 +86,14 @@ We load the data of our model (vertex, texture coordinate, etc...) from all sort
 
 ![image](https://user-images.githubusercontent.com/71375990/179769553-ccf5a45b-4021-4e83-9a1d-ee6cf223a8a0.png)
 
-Frame Buffers allow us to draw things on a different buffer than the one we show at the end. We use this buffer to store what we draw as a new texture we can use later. In this case we drew our entire scene in a framebuffer, turned it into a texture then applied some effect on it.
+Frame Buffers allows us to draw things on a different buffer than the one we show at the end. We use this buffer to store what we draw as a new texture we can use later. In this case we drew our entire scene in a framebuffer, turned it into a texture then applied some effect on it.
 
 ## Stencil
 
 ![image](https://user-images.githubusercontent.com/71375990/179769841-d4e823a4-d38a-47ef-9be8-522a64f61c55.png)
 
-A stencil is a buffer that can be written on and that can discard fragments.
-In our scene we draw again our model a bit larger and discard what's in front of our smaller model. We get an outline.
+A stencil is a buffer that can be written on, and that can discard fragments.
+In our scene we again draw our model a bit larger and discard what's in front of our smaller model. We get an outline.
 
 ## Cube Mapping
 
@@ -109,7 +109,7 @@ In our case we use it to make a skybox.
 
 ![image](https://user-images.githubusercontent.com/71375990/179776948-b769951f-5abd-42ce-88fe-2d4bd4e9cbda.png)
 
-Instancing is an optimization that allows us to use one draw call for the same object .
+Instancing is an optimization that allows us to use one draw call for the same object.
 
 ## Normal Mapping
 
@@ -129,9 +129,9 @@ A normal map is used to redefine the normals of our object that we use in our li
 
 ![image](https://user-images.githubusercontent.com/71375990/179770514-ea955139-1a51-4ce1-baef-87f5ee616ede.png)
 
-Shadow mapping is used to create shadow!
+Shadow mapping is used to create shadows!
 
-To do so we bind a framebuffer then draw our scene from the point of view of our light in depth only. Then we draw in another buffer the scene normally with our shadow map that we just got.
+To do so, we bind a framebuffer then draw our scene from the point of view of our light in depth only. Then we draw in another buffer the scene normally with our shadow map that we just got.
 
 In our case the light being a directional light doesn't have a position so we made an approximation to have it cover our scene.
 
@@ -142,14 +142,14 @@ Shadow map
 
 ![image](https://user-images.githubusercontent.com/71375990/179767972-c7dbc421-7940-4034-84d6-7f6214cd5a84.png)
 
-From what we saw before, let's see what elements we put in our scene :
+From what we saw before, let's see what elements we put in our scene:
 
-- Lighting : directional light, point light (white square), flashlight.
-- Ground : square, instanced and using normal mapping.
-- Backpack : model, instanced and using normal mapping.
-- Shadow mapping : from directional lighting.
-- Cube mapping : skybox.
-- Frame Buffer : alter between normal and blurry every 5 seconds.
+- Lighting: directional light, point light (white square), flashlight.
+- Ground: square, instanced and using normal mapping.
+- Backpack: model, instanced and using normal mapping.
+- Shadow mapping: from directional lighting.
+- Cube mapping: skybox.
+- Frame Buffer: alter between normal and blurry every 5 seconds.
 - Back Face Culling (see in "view frustum culling").  
 
 ## What more could have been done
@@ -175,6 +175,6 @@ To go deeper into graphics programming there are multiple things that could be d
 
 ## Conclusion 
 
-That's it for the overview of my scene, we saw all the techniques i used and what they do in the scene.
+That's it for the overview of my scene, we saw all the techniques I used and what they do in the scene.
 I appreciated this course and can't wait to learn about more techniques used in the industry. 
 
