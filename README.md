@@ -3,7 +3,6 @@
 ## You can find the code [here](https://github.com/PaulOwO/GPR5300).
 
 ## Preview
-[GIF](https://github.com/PaulOwO/Portfolio.github.io/blob/39770161c20a4e999548c14b091dd06c9c981836/gif/opengl.gif)
 ![image](https://user-images.githubusercontent.com/71375990/179767972-c7dbc421-7940-4034-84d6-7f6214cd5a84.png)
 
 We are going to see overall how the scene evolved throughout 2 months and thanks to which techniques.
